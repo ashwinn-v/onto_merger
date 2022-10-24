@@ -41,7 +41,7 @@ def main(project_folder_path: str) -> None:
     """
     Pipeline(project_folder_path=project_folder_path).run_alignment_and_connection_process()
 
-
+# pipeline = Pipeline(project_folder_path="/Users/ashwinv/Documents/GitHub/onto_merger/data/bikg_disease")
 if __name__ == "__main__":
     arguments = docopt(__doc__, version=f"OntoMerger v. {__version__}")
     if arguments[VERSION_ARG]:
